@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9C041DB5-273E-48C3-A63E-2B4B5C1086B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyQuest.Identity.Api", "src\FamilyQuest.Identity.Api\FamilyQuest.Identity.Api.csproj", "{DB5D62F7-85C1-4AAF-86AC-313EA2125411}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB5D62F7-85C1-4AAF-86AC-313EA2125411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5D62F7-85C1-4AAF-86AC-313EA2125411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5D62F7-85C1-4AAF-86AC-313EA2125411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5D62F7-85C1-4AAF-86AC-313EA2125411}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB5D62F7-85C1-4AAF-86AC-313EA2125411} = {9C041DB5-273E-48C3-A63E-2B4B5C1086B8}
 	EndGlobalSection
 EndGlobal
